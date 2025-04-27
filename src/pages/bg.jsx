@@ -1,8 +1,11 @@
 import { motion } from "framer-motion";
+import Home from "./home";
+import Project from "../components/project";
+import projects from "../../public/data/data";
 
-export default function Background() {
+export default function BG() {
   return (
-    <div className="absolute inset-0 -z-10 w-full h-screen overflow-hidden bg-gradient-to-b from-blue-50 to-blue-100">
+    <div className="absolute inset-0 -z-10 w-full h-screen overflow-hidden bg-gradient-to-b from-blue-100 to-blue-50">
       {/* Animated Circles */}
       <motion.div
         className="absolute w-40 h-40 bg-blue-400 rounded-full opacity-30"

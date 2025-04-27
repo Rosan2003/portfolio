@@ -1,11 +1,10 @@
 import { motion } from "framer-motion";
-import projects from "../../public/data/data";
 
 const Project = ({project}) => {
     const{title,description,imageUrl} = project;
 
   return (
-    <div className="relative z-10">
+    <div >
     <motion.div
       whileHover={{ scale: 1.05 }}
       className="relative z-10 w-80 h-96 overflow-hidden rounded-2xl shadow-lg group cursor-pointer"
